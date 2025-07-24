@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top-Tier Carwash</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="logo">Carwash Pro</div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Your Car Deserves the Best</h1>
+      <button>Book Now</button>
+    </div>
+  </header>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <i>🧽</i>
+        <h3>Tire Black</h3>
+        <p>Shine and protect your tires for a longer-lasting look.</p>
+      </div>
+      <div class="service-card">
+        <i>🧹</i>
+        <h3>Vacuum Interior</h3>
+        <p>Thorough vacuuming to keep your car’s interior spotless.</p>
+      </div>
+      <div class="service-card">
+        <i>🛡️</i>
+        <h3>Armor + Wax</h3>
+        <p>Premium coating to protect your car's paint and shine.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3>Small</h3>
+        <p>Basic Wash + Vacuum</p>
+        <div class="price">₱250</div>
+      </div>
+      <div class="price-card">
+        <h3>Medium</h3>
+        <p>Basic Wash + Interior Detail</p>
+        <div class="price">₱300</div>
+      </div>
+      <div class="price-card">
+        <h3>Large</h3>
+        <p>Premium Wash + Armor</p>
+        <div class="price">₱400</div>
+      </div>
+      <div class="price-card">
+        <h3>XL</h3>
+        <p>Full Package + Tire Black</p>
+        <div class="price">₱500</div>
+      </div>
+      <div class="price-card">
+        <h3>XXL</h3>
+        <p>Full Detail + Wax & Polish</p>
+        <div class="price">₱600</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking">
+    <h2>Book a Service</h2>
+    <form class="booking-form" action="https://docs.google.com/forms/d/e/1FAIpQLSduJzicsSrpefIX52ktZL8EE3wO8okfRTmoBT_0ep8DUbSa-w/viewform?usp=header" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="text" name="name" placeholder="Name" required />
+  <input type="text" name="car" placeholder="Car Type" required />
+  <select name="service" required>
+    <option value="">Select Service</option>
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+    <option value="xl">XL</option>
+    <option value="xxl">XXL</option>
+  </select>
+  <input type="datetime-local" name="datetime" required />
+  <button type="submit">Submit</button>
+</form>
+
+  </section>
+
+  <footer id="contact">
+    <p>Contact us: carwash@example.com | (123) 456-7890</p>
+    <p>Open Daily: 8AM - 8PM</p>
+    <p>Follow us on social media: Facebook | Instagram | Twitter</p>
+    <p>© 2025 Carwash Pro. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
